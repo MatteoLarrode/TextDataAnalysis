@@ -11,7 +11,7 @@ Some words are commonly associated with a positive or negative sentiment. Words 
 
 *Fig 1. Words most frequently used in positive tweets (TF-IDF weighted)*
 
-![Fig 1](figures/fig1.png =100x20)
+![Fig 1](figures/fig1.png)
 
 On the other hand, the language associated to delay or cancellation (“hours”, “cancelled”, “hold”, “delayed”, “time”) are commonly associated with negative tweets.
 
