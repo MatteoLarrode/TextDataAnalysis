@@ -28,7 +28,7 @@ The customized dictionary includes fundamental words of sentiment analysis. It a
 
 *Table 1. Customized Dictionary*
 
-![Tab 1](figures/Table1.png)
+![Tab 1](figures/Tab1.png)
 
 ## Lasso logit classifier
 
@@ -40,7 +40,7 @@ The accuracy of both classifiers can be tested comparing the type of sentiment t
 
 *Table 2. Comparison of the performance of both classifiers*
 
-![Tab 2](figures/Table2.png)
+![Tab 2](figures/Tab2.png)
 
 Both classifiers display outstanding sensitivity rates, indicating great efficacy at identifying tweets expressing a negative sentiment. Their lower specificity uncovers a weaker accuracy in identifying positive tweets for both classifiers. Remarkably, the classifier based on supervised machine-learning outperforms its dictionary- based counterpart with a lower error rate, and better sensitivity and specificity.
 
