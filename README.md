@@ -26,6 +26,27 @@ While commonly used words associated with a positive sentiment are similar acros
 A classic method to judge the sentiment of texts is to use a dictionary. For sentiment analysis, the dictionary includes language associated with positive and negative emotions. This list of pre- selected words can be used to classify tweets by analyzing the proportion of words associated with those emotions.
 The customized dictionary includes fundamental words of sentiment analysis. It also includes jargon specific to airlines to fit the context in which the dictionary is used. The selection of words is based on the analysis of their frequency in tweets after they were grouped by sentiment and TF-IDF weighted.
 
-*Table 1. Customized Dictionary
+*Table 1. Customized Dictionary*
 
+![Tab 1](figures/Table1.png)
+
+## Lasso logit classifier
+
+Lasso (Least Absolute Selection and Shrinkage Operator) is effective for feature selection by minimizing squared errors with a penalty for complexity. Cross-validation in a training set selected the optimal logit lasso model, which was then used to classify tweets in the test set. This classifier is based on a supervised machine- learning technique whereby the model ‘learns’ which words predicts the sentiment embedded in tweets.
+
+## Comparing the classifiers’ performances
+
+The accuracy of both classifiers can be tested comparing the type of sentiment they identified for each tweet against the previously hand- labelled sentiment category.
+
+*Table 2. Comparison of the performance of both classifiers*
+
+![Tab 2](figures/Table2.png)
+
+Both classifiers display outstanding sensitivity rates, indicating great efficacy at identifying tweets expressing a negative sentiment. Their lower specificity uncovers a weaker accuracy in identifying positive tweets for both classifiers. Remarkably, the classifier based on supervised machine-learning outperforms its dictionary- based counterpart with a lower error rate, and better sensitivity and specificity.
+
+The poorer quality of the dictionary-based classifier can be explained by multiple factors. Dictionary-based methods are limited by the difficulty to turn word proportions into a single measure. Also, the threshold at which a text is classified as positive or negative is unclear and subject to subjectivity. Finally, the greatest limitation of this method is in the dictionary itself. Context-specific dictionaries are laborious to build and the 20 words of the dictionary used in this report cannot capture accurately the sentiment of a diversity of customers. On the other hand, supervised learning, i.e., classification with a regularized logit model is better equipped to handle vast size of text data and is more reliable, thanks to its optimal feature selection. In fact, this technique based on machine-learning can be thought of as an improvement of the dictionary method, where the computer would first ‘learn’ the dictionary.
+
+## Conclusion
+
+Despite its limitations, including the large cost and subjectivity of the necessary pre-labelling of many tweets to supervise the model, using the classifier based on the lasso logit method should be favoured by the company to classify future tweets.
 
