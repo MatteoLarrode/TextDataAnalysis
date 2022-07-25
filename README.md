@@ -53,3 +53,8 @@ The poorer quality of the dictionary-based classifier can be explained by multip
 ## Conclusion
 
 Despite its limitations, including the large cost and subjectivity of the necessary pre-labelling of many tweets to supervise the model, using the classifier based on the lasso logit method should be favoured by the company to classify future tweets.
+
+
+
+<img src="figures/Tab1.png" alt="figure 1" width="200"/>
+
