@@ -21,6 +21,10 @@ On the other hand, the language associated to delay or cancellation (“hours”
 
 While commonly used words associated with a positive sentiment are similar across airlines, an overview of how negative word usage differs across airlines can help reveal specific customer complaints (Fig.6). For example, American Airlines, Southwest, and US Airways customers seemed to have troubles with cancelled flights and help service. JetBlue and United customers mostly complain about delays. Virgin America customers seem to dislike the website of the company. Many negative tweets associated to United mention “bag”, hinting at problems of luggage management by the company.
 
+*Fig 6. Most frequently used words in negative tweets across airlines (TF-IDF weighted)*
+
+![Fig 3](figures/fig3.png)
+
 ## Dictionary-based classifier
 
 A classic method to judge the sentiment of texts is to use a dictionary. For sentiment analysis, the dictionary includes language associated with positive and negative emotions. This list of pre- selected words can be used to classify tweets by analyzing the proportion of words associated with those emotions.
@@ -49,4 +53,3 @@ The poorer quality of the dictionary-based classifier can be explained by multip
 ## Conclusion
 
 Despite its limitations, including the large cost and subjectivity of the necessary pre-labelling of many tweets to supervise the model, using the classifier based on the lasso logit method should be favoured by the company to classify future tweets.
-
