@@ -11,19 +11,19 @@ Some words are commonly associated with a positive or negative sentiment. Words 
 
 *Fig 1. Words most frequently used in positive tweets (TF-IDF weighted)*
 
-<img src="figures/Fig1.png" alt="figure 1" width="400"/>
+<img src="figures/fig1.png" alt="figure 1" width="400"/>
 
 On the other hand, the language associated to delay or cancellation (“hours”, “cancelled”, “hold”, “delayed”, “time”) are commonly associated with negative tweets.
 
 *Fig 2. Words most frequently used in negative tweets (TF-IDF weighted)*
 
-<img src="figures/Fig2.png" alt="figure 2" width="400"/>
+<img src="figures/fig2.png" alt="figure 2" width="400"/>
 
 While commonly used words associated with a positive sentiment are similar across airlines, an overview of how negative word usage differs across airlines can help reveal specific customer complaints (Fig.6). For example, American Airlines, Southwest, and US Airways customers seemed to have troubles with cancelled flights and help service. JetBlue and United customers mostly complain about delays. Virgin America customers seem to dislike the website of the company. Many negative tweets associated to United mention “bag”, hinting at problems of luggage management by the company.
 
 *Fig 6. Most frequently used words in negative tweets across airlines (TF-IDF weighted)*
 
-<img src="figures/Fig3.png" alt="figure 3" width="400"/>
+<img src="figures/fig3.png" alt="figure 3" width="400"/>
 
 ## Dictionary-based classifier
 
